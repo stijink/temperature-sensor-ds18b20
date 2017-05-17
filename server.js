@@ -7,7 +7,7 @@ console.log('started temperature sensor server at port ' + port);
 
 http.createServer(function(request, response) {
 
-  var temperature  = sensor.readSimpleC(2);
+  var temperature  = sensor.readSimpleC(1);
 
   response.writeHead(200);
   response.write(temperature.toString());
