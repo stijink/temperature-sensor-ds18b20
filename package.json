@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "ds18b20-raspi": "^0.2.5"
+  }
+}
